@@ -40,7 +40,7 @@ function inicializaCronometro() {
 				campo.attr("disabled", true);
 				clearInterval(cronometroID);
 				// campo.css("background-color", "lightgray");
-				campo.addClass("campo-desativado");
+				campo.toggleClass("campo-desativado");
 			}
 		},1000);
 	});
@@ -53,4 +53,5 @@ function reiniciaJogo() {
 	$("#contador-caracteres").text("0");
 	$("#tempo-digitacao").text(tempoInicial);
 	inicializaCronometro();
+	campo.toggleClass("campo-desativado");
 }

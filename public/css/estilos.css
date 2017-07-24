@@ -9,5 +9,9 @@
 }
 
 .campo-desativado{
-	background-color: lightgray);
+	background-color: lightgray;
+}
+
+.icones{
+	vertical-align: middle;
 }
