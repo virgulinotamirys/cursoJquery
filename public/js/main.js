@@ -85,6 +85,8 @@ function inserePlacar(){
                     "<td>"+ numPalavras + "</td>"+
                 "</tr>";
 
+    corpoTabela.prepend(linha);
+
 }
 
 
